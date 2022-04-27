@@ -1,0 +1,494 @@
+[2014/08/29 14:04:01] minidlna.c:1014: warn: Starting MiniDLNA version 1.1.3.
+[2014/08/29 14:04:01] minidlna.c:355: warn: Creating new database at /var/cache/minidlna/files.db
+[2014/08/29 14:04:01] minidlna.c:1053: warn: HTTP listening on port 8200
+[2014/08/29 14:04:01] getifaddr.c:338: info: Enabling interface 192.168.0.118/255.255.255.0
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] scanner.c:706: info: Scanning /home/worek/users/emes/dlna/Video
+[2014/08/29 14:04:01] metadata.c:807: debug: Container: 'mov,mp4,m4a,3gp,3g2,mj2' [MOV_0020.mp4]
+[2014/08/29 14:04:01] metadata.c:1239: debug: Stream 0 of MOV_0020.mp4 is h.264
+[2014/08/29 14:04:01] metadata.c:807: debug: Container: 'avi' [U2 - Magnificent - 2009-03-03.avi]
+[2014/08/29 14:04:01] metadata.c:807: debug: Container: 'mpeg' [VH1_2004-10-22_00-04-49.mp4]
+[2014/08/29 14:04:01] metadata.c:916: debug: Stream 0 of VH1_2004-10-22_00-04-49.mp4 is 480x576 MPEG2 PS
+[2014/08/29 14:04:01] scanner.c:706: info: Scanning /home/worek/users/emes/dlna/Foto
+[2014/08/29 14:04:01] playlist.c:125: warn: Parsing playlists...
+[2014/08/29 14:04:01] playlist.c:259: warn: Finished parsing playlists.
+[2014/08/29 14:04:01] scanner.c:868: debug: Initial file scan completed
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:01] minissdp.c:300: maxdebug: Sending ssdp:alive [7]
+[2014/08/29 14:04:02] minidlna.c:1254: debug: HTTP connection from 192.168.0.81:49359
+[2014/08/29 14:04:02] clients.c:302: debug: Added client [Generic DLNA 1.5/192.168.0.81/6C:F0:49:2E:1B:3E] to cache slot 0.
+[2014/08/29 14:04:02] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+Host: 192.168.0.118:8200
+User-Agent: Microsoft-Windows/6.1 UPnP/1.0 Windows-Media-Player-DMS/12.0.7601.17514 DLNADOC/1.50
+
+
+[2014/08/29 14:04:02] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:02 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:02] minidlna.c:1254: debug: HTTP connection from 192.168.0.81:49360
+[2014/08/29 14:04:02] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 0]
+[2014/08/29 14:04:02] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/sm.png HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Windows-Media-Player-DMS/12.0.7601.17514
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:02] upnphttp.c:1335: debug: Sending small PNG icon
+[2014/08/29 14:04:02] inotify.c:156: debug: Add watch to /home/worek/users/emes/dlna/Video
+[2014/08/29 14:04:02] inotify.c:156: debug: Add watch to /home/worek/users/emes/dlna/Foto
+[2014/08/29 14:04:02] inotify.c:163: debug: Add watch to /home/worek/users/emes/dlna/Video
+[2014/08/29 14:04:02] inotify.c:163: debug: Add watch to /home/worek/users/emes/dlna/Foto
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55059
+[2014/08/29 14:04:03] clients.c:302: debug: Added client [Unknown/192.168.0.45/74:86:7A:10:B1:14] to cache slot 1.
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Keep-Alive
+Pragma: no-cache
+Accept: text/xml, application/xml
+User-Agent: DAFUPnP
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55060
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Unknown/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+User-Agent: Microsoft-Windows/6.3 UPnP/1.0
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55061
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic UPnP 1.0/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/sm.png HTTP/1.1
+Connection: Keep-Alive
+User-Agent: User-Agent: Microsoft-DLNA DLNADOC/1.50
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1335: debug: Sending small PNG icon
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55062
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/lrg.png HTTP/1.1
+Connection: Keep-Alive
+User-Agent: User-Agent: Microsoft-DLNA DLNADOC/1.50
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1342: debug: Sending large PNG icon
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55063
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/sm.jpg HTTP/1.1
+Connection: Keep-Alive
+User-Agent: User-Agent: Microsoft-DLNA DLNADOC/1.50
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1349: debug: Sending small JPEG icon
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55064
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/lrg.jpg HTTP/1.1
+Connection: Keep-Alive
+User-Agent: User-Agent: Microsoft-DLNA DLNADOC/1.50
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1356: debug: Sending large JPEG icon
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55065
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /X_MS_MediaReceiverRegistrar.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+User-Agent: Microsoft-Windows/6.3 UPnP/1.0 Microsoft-DLNA DLNADOC/1.50
+FriendlyName.DLNA.ORG: DELL-ENERGETYK
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2132
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><actionList><action><name>IsAuthorized</name><argumentList><argument><name>DeviceID</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_DeviceID</relatedStateVariable></argument><argument><name>Result</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Result</relatedStateVariable></argument></argumentList></action><action><name>IsValidated</name><argumentList><argument><name>DeviceID</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_DeviceID</relatedStateVariable></argument><argument><name>Result</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Result</relatedStateVariable></argument></argumentList></action><action><name>RegisterDevice</name><argumentList><argument><name>RegistrationReqMsg</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_RegistrationReqMsg</relatedStateVariable></argument><argument><name>RegistrationRespMsg</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_RegistrationRespMsg</relatedStateVariable></argument></argumentList></action></actionList><serviceStateTable><stateVariable sendEvents="no"><name>A_ARG_TYPE_DeviceID</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_RegistrationReqMsg</name><dataType>bin.base64</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_RegistrationRespMsg</name><dataType>bin.base64</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Result</name><dataType>int</dataType></stateVariable><stateVariable sendEvents="yes"><name>AuthorizationDeniedUpdateID</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="yes"><name>AuthorizationGrantedUpdateID</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="yes"><name>ValidationRevokedUpdateID</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="yes"><name>ValidationSucceededUpdateID</name><dataType>ui4</dataType></stateVariable></serviceStateTable></scpd>
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55066
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: POST /ctl/X_MS_MediaReceiverRegistrar HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Content-Type: text/xml; charset="utf-8"
+User-Agent: Microsoft-Windows/6.3 UPnP/1.0 Microsoft-DLNA DLNADOC/1.50
+FriendlyName.DLNA.ORG: DELL-ENERGETYK
+SOAPAction: "urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1#IsAuthorized"
+Content-Length: 403
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:649: debug: SOAPAction: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1#IsAuthorized
+[2014/08/29 14:04:03] upnpsoap.c:1895: debug: SoapMethod: IsAuthorized
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 329
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:IsAuthorizedResponse xmlns:u="urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1"><Result>1</Result></u:IsAuthorizedResponse></s:Body></s:Envelope>
+
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55067
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /ContentDir.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+User-Agent: Microsoft-Windows/6.3 UPnP/1.0
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 5094
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><actionList><action><name>GetSearchCapabilities</name><argumentList><argument><name>SearchCaps</name><direction>out</direction><relatedStateVariable>SearchCapabilities</relatedStateVariable></argument></argumentList></action><action><name>GetSortCapabilities</name><argumentList><argument><name>SortCaps</name><direction>out</direction><relatedStateVariable>SortCapabilities</relatedStateVariable></argument></argumentList></action><action><name>GetSystemUpdateID</name><argumentList><argument><name>Id</name><direction>out</direction><relatedStateVariable>SystemUpdateID</relatedStateVariable></argument></argumentList></action><action><name>Browse</name><argumentList><argument><name>ObjectID</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_ObjectID</relatedStateVariable></argument><argument><name>BrowseFlag</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_BrowseFlag</relatedStateVariable></argument><argument><name>Filter</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Filter</relatedStateVariable></argument><argument><name>StartingIndex</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Index</relatedStateVariable></argument><argument><name>RequestedCount</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>SortCriteria</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_SortCriteria</relatedStateVariable></argument><argument><name>Result</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Result</relatedStateVariable></argument><argument><name>NumberReturned</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>TotalMatches</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>UpdateID</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_UpdateID</relatedStateVariable></argument></argumentList></action><action><name>Search</name><argumentList><argument><name>ContainerID</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_ObjectID</relatedStateVariable></argument><argument><name>SearchCriteria</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_SearchCriteria</relatedStateVariable></argument><argument><name>Filter</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Filter</relatedStateVariable></argument><argument><name>StartingIndex</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Index</relatedStateVariable></argument><argument><name>RequestedCount</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>SortCriteria</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_SortCriteria</relatedStateVariable></argument><argument><name>Result</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Result</relatedStateVariable></argument><argument><name>NumberReturned</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>TotalMatches</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>UpdateID</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_UpdateID</relatedStateVariable></argument></argumentList></action></actionList><serviceStateTable><stateVariable sendEvents="yes"><name>TransferIDs</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_ObjectID</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Result</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_SearchCriteria</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_BrowseFlag</name><dataType>string</dataType><allowedValueList><allowedValue>BrowseMetadata</allowedValue><allowedValue>BrowseDirectChildren</allowedValue></allowedValueList></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Filter</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_SortCriteria</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Index</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Count</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_UpdateID</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="no"><name>SearchCapabilities</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>SortCapabilities</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="yes"><name>SystemUpdateID</name><dataType>ui4</dataType></stateVariable></serviceStateTable></scpd>
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55068
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic UPnP 1.0/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Keep-Alive
+Pragma: no-cache
+Accept: text/xml, application/xml
+User-Agent: DAFUPnP
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55069
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic UPnP 1.0/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+User-Agent: Microsoft-Windows/6.3 UPnP/1.0
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55070
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic UPnP 1.0/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/sm.png HTTP/1.1
+Connection: Keep-Alive
+User-Agent: User-Agent: Microsoft-DLNA DLNADOC/1.50
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1335: debug: Sending small PNG icon
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55071
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/lrg.png HTTP/1.1
+Connection: Keep-Alive
+User-Agent: User-Agent: Microsoft-DLNA DLNADOC/1.50
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1342: debug: Sending large PNG icon
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55072
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/sm.jpg HTTP/1.1
+Connection: Keep-Alive
+User-Agent: User-Agent: Microsoft-DLNA DLNADOC/1.50
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1349: debug: Sending small JPEG icon
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55073
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/lrg.jpg HTTP/1.1
+Connection: Keep-Alive
+User-Agent: User-Agent: Microsoft-DLNA DLNADOC/1.50
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1356: debug: Sending large JPEG icon
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55074
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /X_MS_MediaReceiverRegistrar.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+User-Agent: Microsoft-Windows/6.3 UPnP/1.0 Microsoft-DLNA DLNADOC/1.50
+FriendlyName.DLNA.ORG: DELL-ENERGETYK
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2132
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><actionList><action><name>IsAuthorized</name><argumentList><argument><name>DeviceID</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_DeviceID</relatedStateVariable></argument><argument><name>Result</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Result</relatedStateVariable></argument></argumentList></action><action><name>IsValidated</name><argumentList><argument><name>DeviceID</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_DeviceID</relatedStateVariable></argument><argument><name>Result</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Result</relatedStateVariable></argument></argumentList></action><action><name>RegisterDevice</name><argumentList><argument><name>RegistrationReqMsg</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_RegistrationReqMsg</relatedStateVariable></argument><argument><name>RegistrationRespMsg</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_RegistrationRespMsg</relatedStateVariable></argument></argumentList></action></actionList><serviceStateTable><stateVariable sendEvents="no"><name>A_ARG_TYPE_DeviceID</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_RegistrationReqMsg</name><dataType>bin.base64</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_RegistrationRespMsg</name><dataType>bin.base64</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Result</name><dataType>int</dataType></stateVariable><stateVariable sendEvents="yes"><name>AuthorizationDeniedUpdateID</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="yes"><name>AuthorizationGrantedUpdateID</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="yes"><name>ValidationRevokedUpdateID</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="yes"><name>ValidationSucceededUpdateID</name><dataType>ui4</dataType></stateVariable></serviceStateTable></scpd>
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55075
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: POST /ctl/X_MS_MediaReceiverRegistrar HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Content-Type: text/xml; charset="utf-8"
+User-Agent: Microsoft-Windows/6.3 UPnP/1.0 Microsoft-DLNA DLNADOC/1.50
+FriendlyName.DLNA.ORG: DELL-ENERGETYK
+SOAPAction: "urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1#IsAuthorized"
+Content-Length: 403
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:649: debug: SOAPAction: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1#IsAuthorized
+[2014/08/29 14:04:03] upnpsoap.c:1895: debug: SoapMethod: IsAuthorized
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 329
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:IsAuthorizedResponse xmlns:u="urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1"><Result>1</Result></u:IsAuthorizedResponse></s:Body></s:Envelope>
+
+[2014/08/29 14:04:03] minidlna.c:1254: debug: HTTP connection from 192.168.0.45:55076
+[2014/08/29 14:04:03] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 1]
+[2014/08/29 14:04:03] upnphttp.c:885: debug: HTTP REQUEST: GET /ContentDir.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+User-Agent: Microsoft-Windows/6.3 UPnP/1.0
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:03] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 5094
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:03 GMT
+EXT:
+
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><actionList><action><name>GetSearchCapabilities</name><argumentList><argument><name>SearchCaps</name><direction>out</direction><relatedStateVariable>SearchCapabilities</relatedStateVariable></argument></argumentList></action><action><name>GetSortCapabilities</name><argumentList><argument><name>SortCaps</name><direction>out</direction><relatedStateVariable>SortCapabilities</relatedStateVariable></argument></argumentList></action><action><name>GetSystemUpdateID</name><argumentList><argument><name>Id</name><direction>out</direction><relatedStateVariable>SystemUpdateID</relatedStateVariable></argument></argumentList></action><action><name>Browse</name><argumentList><argument><name>ObjectID</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_ObjectID</relatedStateVariable></argument><argument><name>BrowseFlag</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_BrowseFlag</relatedStateVariable></argument><argument><name>Filter</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Filter</relatedStateVariable></argument><argument><name>StartingIndex</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Index</relatedStateVariable></argument><argument><name>RequestedCount</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>SortCriteria</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_SortCriteria</relatedStateVariable></argument><argument><name>Result</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Result</relatedStateVariable></argument><argument><name>NumberReturned</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>TotalMatches</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>UpdateID</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_UpdateID</relatedStateVariable></argument></argumentList></action><action><name>Search</name><argumentList><argument><name>ContainerID</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_ObjectID</relatedStateVariable></argument><argument><name>SearchCriteria</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_SearchCriteria</relatedStateVariable></argument><argument><name>Filter</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Filter</relatedStateVariable></argument><argument><name>StartingIndex</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Index</relatedStateVariable></argument><argument><name>RequestedCount</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>SortCriteria</name><direction>in</direction><relatedStateVariable>A_ARG_TYPE_SortCriteria</relatedStateVariable></argument><argument><name>Result</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Result</relatedStateVariable></argument><argument><name>NumberReturned</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>TotalMatches</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_Count</relatedStateVariable></argument><argument><name>UpdateID</name><direction>out</direction><relatedStateVariable>A_ARG_TYPE_UpdateID</relatedStateVariable></argument></argumentList></action></actionList><serviceStateTable><stateVariable sendEvents="yes"><name>TransferIDs</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_ObjectID</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Result</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_SearchCriteria</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_BrowseFlag</name><dataType>string</dataType><allowedValueList><allowedValue>BrowseMetadata</allowedValue><allowedValue>BrowseDirectChildren</allowedValue></allowedValueList></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Filter</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_SortCriteria</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Index</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_Count</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="no"><name>A_ARG_TYPE_UpdateID</name><dataType>ui4</dataType></stateVariable><stateVariable sendEvents="no"><name>SearchCapabilities</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="no"><name>SortCapabilities</name><dataType>string</dataType></stateVariable><stateVariable sendEvents="yes"><name>SystemUpdateID</name><dataType>ui4</dataType></stateVariable></serviceStateTable></scpd>
+[2014/08/29 14:04:04] minidlna.c:1254: debug: HTTP connection from 192.168.0.33:49575
+[2014/08/29 14:04:04] clients.c:302: debug: Added client [Generic DLNA 1.5/192.168.0.33/00:1A:4D:57:08:31] to cache slot 2.
+[2014/08/29 14:04:04] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+Host: 192.168.0.118:8200
+User-Agent: Microsoft-Windows/6.1 UPnP/1.0 Windows-Media-Player-DMS/12.0.7601.17514 DLNADOC/1.50
+
+
+[2014/08/29 14:04:04] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:04 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:04] minidlna.c:1254: debug: HTTP connection from 192.168.0.33:49576
+[2014/08/29 14:04:04] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 2]
+[2014/08/29 14:04:04] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/sm.png HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Windows-Media-Player-DMS/12.0.7601.17514
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:04] upnphttp.c:1335: debug: Sending small PNG icon
+[2014/08/29 14:04:04] minidlna.c:1254: debug: HTTP connection from 192.168.0.17:53858
+[2014/08/29 14:04:04] clients.c:302: debug: Added client [Generic DLNA 1.5/192.168.0.17/1C:6F:65:7B:42:DB] to cache slot 3.
+[2014/08/29 14:04:04] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+Host: 192.168.0.118:8200
+User-Agent: Microsoft-Windows/6.1 UPnP/1.0 Windows-Media-Player-DMS/12.0.7601.17514 DLNADOC/1.50
+
+
+[2014/08/29 14:04:04] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:04 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:04] minidlna.c:1254: debug: HTTP connection from 192.168.0.14:49300
+[2014/08/29 14:04:04] clients.c:302: debug: Added client [Generic DLNA 1.5/192.168.0.14/40:61:86:58:F7:E7] to cache slot 4.
+[2014/08/29 14:04:04] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+Host: 192.168.0.118:8200
+User-Agent: Microsoft-Windows/6.1 UPnP/1.0 Windows-Media-Player-DMS/12.0.7601.17514 DLNADOC/1.50
+
+
+[2014/08/29 14:04:04] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:04 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:04] minidlna.c:1254: debug: HTTP connection from 192.168.0.17:53859
+[2014/08/29 14:04:04] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 3]
+[2014/08/29 14:04:04] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/sm.png HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Windows-Media-Player-DMS/12.0.7601.17514
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:04] upnphttp.c:1335: debug: Sending small PNG icon
+[2014/08/29 14:04:04] minidlna.c:1254: debug: HTTP connection from 192.168.0.14:49301
+[2014/08/29 14:04:04] clients.c:278: debug: Client found in cache. [Generic DLNA 1.5/entry 4]
+[2014/08/29 14:04:04] upnphttp.c:885: debug: HTTP REQUEST: GET /icons/sm.png HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Windows-Media-Player-DMS/12.0.7601.17514
+Host: 192.168.0.118:8200
+
+
+[2014/08/29 14:04:04] upnphttp.c:1335: debug: Sending small PNG icon
+[2014/08/29 14:04:04] minidlna.c:1254: debug: HTTP connection from 192.168.0.9:53388
+[2014/08/29 14:04:04] clients.c:302: debug: Added client [Generic DLNA 1.5/192.168.0.9/2C:27:D7:EC:4B:E9] to cache slot 5.
+[2014/08/29 14:04:04] upnphttp.c:885: debug: HTTP REQUEST: GET /rootDesc.xml HTTP/1.1
+Cache-Control: no-cache
+Connection: Close
+Pragma: no-cache
+Accept: text/xml, application/xml
+Host: 192.168.0.118:8200
+User-Agent: Microsoft-Windows/6.1 UPnP/1.0 Windows-Media-Player-DMS/12.0.7601.17514 DLNADOC/1.50
+
+
+[2014/08/29 14:04:04] upnphttp.c:1227: debug: HTTP RESPONSE: HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Connection: close
+Content-Length: 2200
+Server: 2.6.27.4 DLNADOC/1.50 UPnP/1.0 MiniDLNA/1.1.3
+Date: Fri, 29 Aug 2014 12:04:04 GMT
+EXT:
+
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"><specVersion><major>1</major><minor>0</minor></specVersion><device><deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType><friendlyName>dlna raspi test</friendlyName><manufacturer>Justin Maggard</manufacturer><manufacturerURL>http://www.netgear.com/</manufacturerURL><modelDescription>MiniDLNA on Linux</modelDescription><modelName>Windows Media Connect compatible (MiniDLNA)</modelName><modelNumber>1</modelNumber><modelURL>http://www.netgear.com</modelURL><serialNumber>12345679</serialNumber><UDN>uuid:4d696e69-444c-164e-9d41-002481fa6edc</UDN><dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMS-1.50</dlna:X_DLNADOC><presentationURL>/</presentationURL><iconList><icon><mimetype>image/png</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.png</url></icon><icon><mimetype>image/png</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.png</url></icon><icon><mimetype>image/jpeg</mimetype><width>48</width><height>48</height><depth>24</depth><url>/icons/sm.jpg</url></icon><icon><mimetype>image/jpeg</mimetype><width>120</width><height>120</height><depth>24</depth><url>/icons/lrg.jpg</url></icon></iconList><serviceList><service><serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType><serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId><controlURL>/ctl/ContentDir</controlURL><eventSubURL>/evt/ContentDir</eventSubURL><SCPDURL>/ContentDir.xml</SCPDURL></service><service><serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType><serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId><controlURL>/ctl/ConnectionMgr</controlURL><eventSubURL>/evt/ConnectionMgr</eventSubURL><SCPDURL>/ConnectionMgr.xml</SCPDURL></service><service><serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType><serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId><controlURL>/ctl/X_MS_MediaReceiverRegistrar</controlURL><eventSubURL>/evt/X_MS_MediaReceiverRegistrar</eventSubURL><SCPDURL>/X_MS_MediaReceiverRegistrar.xml</SCPDURL></service></serviceList></device></root>
+[2014/08/29 14:04:04] minidlna.c:154: warn: received signal 2, good-bye
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
+[2014/08/29 14:04:04] minissdp.c:743: maxdebug: Sending ssdp:byebye [7]
